@@ -1,0 +1,26 @@
+   //下午地址讲解       
+            function subStr(url) {
+                var obj = {};
+                var str = url.split('?')[1];
+                
+                //console.log(str);
+                var str2 = str.split('&');
+               // console.log(str2);
+                for (var k in str2) {
+                var str3 = str2[k].split('=');
+                obj[str3[0]] = str3[1];
+                }
+                return obj;
+            }
+            var href = subStr(window.location.href);
+            console.log(href);
+
+            window.location.href        //获取到完整的url地址http：//127.0.0.1:9090/MMB/productlist.html?categoryid=0&name=123&age=18
+            window.location.host        //获取到服务器名称和端口号http：//127.0.0.1:9090
+            window.location.hostname     //获取到不带端口号的服务器名称http：//127.0.0.1:9090，www.baidu.com
+            window.location.pathname   //获取到文件目录/MMB/
+            window.location.port       //获取到文件目录 9090 
+            window.location.portocol   //获取到页面协议 http：，https
+            window.location.hash      //获取到#后面 www.baidu.com#color出现的任何字符，都会被浏览器解读为位置标识符。这意味着，这些字符都不会被发送到服务器端。
+            window.location.search    //获取到?出现字符 ?categoryid=0&name=123&age=18
+                  slice(2);//从第三个字符串截取,返回截取的字符串

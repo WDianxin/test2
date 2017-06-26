@@ -1,0 +1,68 @@
+
+192.168.39.24
+帐号：web0323@sh.itcast.cn
+密码：745324
+QQ:2659926910
+ctr;+shif+c
+github.com
+用户名: Wdianxin
+密码 :
+触动一个元素事件的时候,该元素的祖先元素事件都会执行,这就是冒泡.
+捕获\目标\冒泡
+false:冒泡  true:捕获  不写:冒泡
+tagName:获取标签名(大写的)
+strict.dtd严格语法
+loose.dtd宽松语法
+html声明语法属于宽松语法
+lang:语言  en英文  
+类名:
+ header头部
+ main主体部分  
+  articlle 主题内容
+  aside  侧边栏
+ footer
+html5shiv插件可以支持低版本的ie
+HTML5只支持高版本浏览器比如ie9(ie9只支持部分功能)
+github:代码的开源平台
+引包必须提前加载,最好放在heade标签之中
+条件注释标签:
+  表单  
+ action="提交地址
+记忆 output:输出表现,不提交
+     datalist:
+     keygen
+css3
+  ie8及ie8以下完全不支持csse属性
+  1.  私有前缀
+  火狐兼容:-moz-    浏览器的标识
+  谷歌 ,苹果   -webkit-
+   欧鹏   -0-
+  ie    -ms-
+渐进增强
+  
+Canvas
+canvas基本介绍:
+  canvas  帆布   画布 
+ canvas指html5中新增的一个标签!(画画是它基本的功能,可以开发游戏)
+基本用法:
+ 1. 写一个<canvs></canvas>标签
+   默认宽高为:300*150px
+ 设置宽高可以通过标签的属性width和height来设置(通常做法)
+ 也可以通过css样式来设置,但是通过css样式设置会将画布拉伸
+3.canvas标签
+processon在线画图软件特别好用
+4.cnavas对象.geContext(type);  //2d   :2d         //webgl:3d
+
+ <canvas></canvas>
+1.写标签10:02 2017/6/10
+2.获取canvas对象
+3.告诉绘图工具在哪里落笔            绘图工具.moveTo(x,y);
+4.滑到哪里          工具.lineTo(x,y);
+5.  开始绘图 绘图工具 .stroke();  
+strokeStyle
+beginPath
+beginPath方法
+setLineDash([]);
+
+  
+ 
